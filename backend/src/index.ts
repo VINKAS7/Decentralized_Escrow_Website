@@ -6,8 +6,8 @@ const app = new Hono();
 app.use(cors());
 
 const redis = new Redis({
-  url: "https://musical-camel-40919.upstash.io",
-  token: "AZ_XAAIjcDE0MmUzNmNkZDlmMTQ0YjMyODE4MzA1MWExNGM3YmExOHAxMA",
+  url:  UPSTASH_REST_URL,
+  token: UPSTASH_REST_TOKEN,
 });
 
 // Register contract endpoint
