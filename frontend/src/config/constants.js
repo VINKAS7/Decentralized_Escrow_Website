@@ -1,0 +1,1 @@
+export const INFURA_URL = "https://sepolia.infura.io/v3/c6b6ca77c78e4eb4a53d6829e12d4ee7";
