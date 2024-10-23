@@ -129,7 +129,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ---
 
-# frontend/README.md
 # Frontend - Ethereum Escrow DApp
 
 The frontend application for the Ethereum Escrow DApp built with React and Tailwind CSS.
@@ -181,7 +180,6 @@ npm run build
 
 ---
 
-# backend/README.md
 # Backend - Ethereum Escrow DApp
 
 The backend service for the Ethereum Escrow DApp built with Hono.js and Cloudflare Workers.
@@ -231,7 +229,6 @@ wrangler deploy
 
 ---
 
-# contracts/README.md
 # Smart Contracts - Ethereum Escrow DApp
 
 Solidity smart contracts for the Ethereum Escrow DApp.
@@ -279,7 +276,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ---
 
-# scripts/README.md
 # Scripts - Ethereum Escrow DApp
 
 Deployment and utility scripts for the Ethereum Escrow DApp.
