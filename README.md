@@ -1,4 +1,3 @@
-# Main README.md (root directory)
 # Ethereum Escrow DApp
 
 A decentralized escrow application built on the Ethereum network (Sepolia testnet) that allows users to create and manage escrow contracts with a user-friendly interface.
