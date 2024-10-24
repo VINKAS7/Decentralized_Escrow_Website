@@ -50,7 +50,8 @@ function CreateEscrow() {
                     aliasName: alias,
                     description,
                     receiverAddress,
-                    senderAddress: await signer.getAddress()
+                    senderAddress: await signer.getAddress(),
+                    amount
                 })
             });
 
