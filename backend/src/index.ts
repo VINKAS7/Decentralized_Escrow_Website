@@ -12,7 +12,7 @@ const redis = new Redis({
 
 // Register contract endpoint
 app.post('/register-contract', async (c) => {
-  const { contractAddress, aliasName, description, receiverAddress, senderAddress } = await c.req.json();
+  const { contractAddress, aliasName, description, receiverAddress, senderAddress, amount } = await c.req.json();
 
   const link = `/contract/${contractAddress}`;
 
@@ -21,6 +21,7 @@ app.post('/register-contract', async (c) => {
     description,
     receiverAddress,
     senderAddress,
+    amount
   });
 
   return c.json({ link, contractAddress });
